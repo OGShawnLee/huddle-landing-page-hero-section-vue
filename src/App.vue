@@ -37,6 +37,7 @@
             class="h-9 min-w-9 w-9 | flex items-center justify-center | border-2 border-white rounded-full hover:(text-magenta border-magenta) transition duration-200 ease-in"
           >
             <button h-full w-full>
+              <span sr-only> Follow us on {{ icon }} </span>
               <i :class="`bx bxl-${icon}`" />
             </button>
           </li>
